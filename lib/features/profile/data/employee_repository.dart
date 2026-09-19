@@ -9,6 +9,7 @@ class Employee {
   Employee({required this.id, required this.name, required this.department, required this.designation, required this.email, required this.mobile});
 }
 
+/// Repository responsible for fetching and providing employee profile details.
 class MockEmployeeRepository {
   Future<Employee> getEmployee(String id) async {
     await Future.delayed(const Duration(milliseconds: 500));
