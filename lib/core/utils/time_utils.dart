@@ -1,3 +1,4 @@
+/// Utility class providing helper methods for calculating working hours and late thresholds.
 class TimeUtils {
   static String calculateWorkingHours(DateTime checkIn, DateTime? checkOut) {
     if (checkOut == null) return '--h --m';
