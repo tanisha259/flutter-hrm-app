@@ -20,6 +20,7 @@ class LeaveBalance {
   LeaveBalance({required this.type, required this.balance});
 }
 
+/// Repository responsible for managing employee leave applications, history, and balances.
 class MockLeaveRepository {
   final List<LeaveRequest> _mockRequests = [
     LeaveRequest(id: '1', employeeId: 'EMP001', leaveType: 'Sick Leave', fromDate: DateTime.now().subtract(const Duration(days: 5)), toDate: DateTime.now().subtract(const Duration(days: 5)), reason: 'Fever', status: 'Approved'),
