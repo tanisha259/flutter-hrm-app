@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../constants/app_constants.dart';
 
+/// Defines the global theme configurations, colors, and text styles for the application.
 class AppTheme {
   static ThemeData get lightTheme {
     return ThemeData(
