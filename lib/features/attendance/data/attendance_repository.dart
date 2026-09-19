@@ -29,6 +29,7 @@ class Attendance {
   );
 }
 
+/// Repository responsible for managing employee attendance records, check-ins, and local persistence.
 class MockAttendanceRepository {
   List<Attendance> _records = [];
   bool _isInit = false;
