@@ -11,6 +11,7 @@ import '../../features/leave/screens/apply_leave_screen.dart';
 import '../../features/leave/screens/leave_history_screen.dart';
 import '../../features/profile/screens/profile_screen.dart';
 
+/// Global router provider for managing application navigation across different feature branches.
 final appRouterProvider = Provider<GoRouter>((ref) {
   return GoRouter(
     initialLocation: '/login',
