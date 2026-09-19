@@ -12,6 +12,7 @@ class FaceVerificationResult {
   });
 }
 
+/// Service interface for biometrically verifying an employee's face against their registered profile.
 abstract class FaceVerificationService {
   Future<FaceVerificationResult> verifyFace({
     required File capturedImage,
