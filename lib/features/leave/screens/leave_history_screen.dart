@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:intl/intl.dart';
 import '../providers/leave_provider.dart';
 
+/// A screen displaying the history of past leave applications and their current approval statuses.
 class LeaveHistoryScreen extends ConsumerWidget {
   const LeaveHistoryScreen({super.key});
 
