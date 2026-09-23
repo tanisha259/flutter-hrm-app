@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:intl/intl.dart';
 
+/// Interactive form screen for employees to submit new leave requests.
 class ApplyLeaveScreen extends StatefulWidget {
   const ApplyLeaveScreen({super.key});
 
