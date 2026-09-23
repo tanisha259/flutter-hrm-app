@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
+/// The authentication screen handling secure employee login.
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 
