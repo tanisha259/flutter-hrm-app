@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
+/// Core scaffold layout widget implementing the bottom navigation bar for the application shell.
 class MainLayout extends StatelessWidget {
   const MainLayout({super.key, required this.navigationShell});
   final StatefulNavigationShell navigationShell;
