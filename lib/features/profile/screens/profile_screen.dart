@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../providers/profile_provider.dart';
 import '../../authentication/providers/auth_provider.dart';
 
+/// A screen displaying the logged-in employee's profile details and account actions.
 class ProfileScreen extends ConsumerWidget {
   const ProfileScreen({super.key});
 
