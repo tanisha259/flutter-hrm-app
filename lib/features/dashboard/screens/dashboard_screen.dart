@@ -5,6 +5,7 @@ import '../../profile/providers/profile_provider.dart';
 import '../../attendance/providers/attendance_provider.dart';
 import 'package:intl/intl.dart';
 
+/// A screen displaying the employee's main dashboard overview, including today's attendance status.
 class DashboardScreen extends ConsumerWidget {
   const DashboardScreen({super.key});
 
