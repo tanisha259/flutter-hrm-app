@@ -6,6 +6,7 @@ import 'package:google_mlkit_face_detection/google_mlkit_face_detection.dart';
 import 'package:go_router/go_router.dart';
 import '../data/face_verification_service.dart';
 
+/// A camera overlay screen responsible for capturing and validating faces for check-in/out.
 class CameraScreen extends StatefulWidget {
   const CameraScreen({super.key});
 
