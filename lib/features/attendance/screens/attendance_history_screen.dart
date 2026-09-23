@@ -4,6 +4,7 @@ import 'package:intl/intl.dart';
 import '../providers/attendance_provider.dart';
 import '../data/attendance_repository.dart';
 
+/// A screen listing historical attendance records with date range and monthly filtering options.
 class AttendanceHistoryScreen extends ConsumerStatefulWidget {
   const AttendanceHistoryScreen({super.key});
 
